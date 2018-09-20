@@ -1,0 +1,26 @@
+﻿生成启动时间为 2018/9/21 1:08:27。
+     1>项目“D:\GitHub\shaderBlinds\shaderBlinds\shaderBlinds\shaderBlinds.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\GitHub\shaderBlinds\shaderBlinds\shaderBlinds\/libs/soil /I"D:\GitHub\shaderBlinds\shaderBlinds\shaderBlinds\/libs/glm-master" /ID:\GitHub\shaderBlinds\shaderBlinds\shaderBlinds\/libs/glfw3 /ID:\GitHub\shaderBlinds\shaderBlinds\shaderBlinds\/libs/glew /ID:\GitHub\shaderBlinds\shaderBlinds\shaderBlinds\/libs/ /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp wrapperShader.cpp
+         wrapperShader.cpp
+         main.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: “APIENTRY”: 宏重定义
+                 d:\github\shaderblinds\shaderblinds\shaderblinds\libs\glfw3\glfw\glfw3.h(98) : 参见“APIENTRY”的前一个定义
+     1>d:\github\shaderblinds\shaderblinds\shaderblinds\main.cpp(90): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\github\shaderblinds\shaderblinds\shaderblinds\main.cpp(94): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GitHub\shaderBlinds\shaderBlinds\Debug\shaderBlinds.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\GitHub\shaderBlinds\shaderBlinds\shaderBlinds\/libs/soil /LIBPATH:D:\GitHub\shaderBlinds\shaderBlinds\shaderBlinds\/libs/glfw3 /LIBPATH:D:\GitHub\shaderBlinds\shaderBlinds\shaderBlinds\/libs/glew /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" SOIL.lib glfw3.lib glew32.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\GitHub\shaderBlinds\shaderBlinds\Debug\shaderBlinds.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GitHub\shaderBlinds\shaderBlinds\Debug\shaderBlinds.lib" /MACHINE:X86 Debug\main.obj
+         Debug\wrapperShader.obj
+         SOIL.lib(SOIL.obj) : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
+     1>LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/LTCG”规范)
+     1>main.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:LBR”规范)
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         正在生成代码
+         已完成代码的生成
+         shaderBlinds.vcxproj -> D:\GitHub\shaderBlinds\shaderBlinds\Debug\shaderBlinds.exe
+     1>已完成生成项目“D:\GitHub\shaderBlinds\shaderBlinds\shaderBlinds\shaderBlinds.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.26
